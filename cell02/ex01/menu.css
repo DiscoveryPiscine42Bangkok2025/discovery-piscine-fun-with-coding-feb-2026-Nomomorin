@@ -1,0 +1,12 @@
+
+.menu {
+  display: none;
+}
+
+.dropdown:hover .menu {
+  display: block;
+}
+
+.menu a {
+  display: block;
+}
