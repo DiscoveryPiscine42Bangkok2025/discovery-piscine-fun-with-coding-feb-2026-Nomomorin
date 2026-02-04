@@ -1,8 +1,9 @@
-if [ $# -eq 0 ]; then
-    echo "No arguments supplied"
+args=("$@")  
+if (($# == 0))
+then
+	echo "No arguments supplied"
 else
-    for arg in "${@:1:4}"
-    do
-        echo "$arg"
-    done
+	for (( i=0;i<3;i++)); do 
+    		echo ${args[${i}]} 
+	done
 fi
