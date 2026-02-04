@@ -8,7 +8,7 @@ const create = () => {
     const check = confirm("Do you want to delete");
     if (check) {
       node.remove();
-      document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
+      document.cookie = name + "=; expires=Thu, 01 Jan 190 00:00:00 UTC;";
     }
   };
   node.innerHTML = txt;
@@ -25,7 +25,7 @@ if (check.length > 0) {
       if (check) {
         node.remove();
         document.cookie =
-          element.split("=")[0] + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
+          element.split("=")[0] + "=; expires=Thu, 01 Jan 1900 00:00:00 UTC;";
       }
     };
     node.innerHTML = element.split("=")[1];
