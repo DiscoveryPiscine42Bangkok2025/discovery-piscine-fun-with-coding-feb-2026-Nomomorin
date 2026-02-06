@@ -1,4 +1,4 @@
-let ft_list = document.getElementById("ft_list");
+let ft_list = document.getElementById("list");
 const create = () => {
   let txt = prompt("Please Enter TODO LIST :");
   const name = new Date().getTime();
